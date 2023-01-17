@@ -543,9 +543,9 @@ video {
 
 @media (min-width: 768px) {
   .card {
+    width: 66.666667%;
     gap: 3.5rem;
     border-radius: 1rem;
-    border-top-width: 8px;
     padding: 2.5rem;
   }
 }
@@ -555,12 +555,6 @@ video {
     width: 100%;
     gap: 1.5rem;
     padding: 1.5rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .card {
-    border-top-width: 4px;
   }
 }
 
