@@ -545,12 +545,18 @@ video {
   .card {
     width: 66.666667%;
     gap: 3.5rem;
-    border-radius: 0.375rem;
+    border-radius: 0.75rem;
     padding: 2.5rem;
   }
 }
 
 @media (min-width: 1024px) {
+  @media (min-width: 768px) {
+    .card {
+      border-radius: 0.375rem;
+    }
+  }
+
   .card {
     width: 100%;
     gap: 1.5rem;
