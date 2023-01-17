@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 .card {
-  @apply gap-1 shadow-[0px_1px_20px_1px_rgba(0,0,0,.2)] flex flex-col p-5 border-t-2 border-solid rounded-md min-[412px]:gap-3 min-[540px]:shadow-[0px_1px_25px_1px_rgba(0,0,0,.2)] min-[540px]:border-t-4 md:p-10 md:gap-14 md:rounded-2xl md:w-8/12 lg:gap-6 lg:w-full lg:p-6;
+  @apply gap-1 shadow-[0px_1px_20px_1px_rgba(0,0,0,.2)] flex flex-col p-5 border-t-2 border-solid rounded-md min-[412px]:gap-3 min-[540px]:shadow-[0px_1px_25px_1px_rgba(0,0,0,.2)] min-[540px]:border-t-4 md:p-10 md:gap-14 md:rounded-md md:w-8/12 lg:gap-6 lg:w-full lg:p-6;
 }
 .rs-1-0 {
   @apply min-[360px]:text-xl;
